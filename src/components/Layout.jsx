@@ -102,10 +102,8 @@ const Layout = () => {
         {isSignUpOpen && <SignUp toggleSignUp={toggleSignUp} />}
         
       </div>
-        <div className='absolute bottom-0 w-full right-0'>
-          <Footer />
-        </div>
     </div>
+    
   );
 };
 

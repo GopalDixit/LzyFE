@@ -5,13 +5,15 @@ import SignUp from './components/SignUp';
 import Footer from './components/Footer';
 function App() {
   return (
-    <Router>
+    <main className='max-w-7xl mx-auto'>
+      <Router>
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer />
     </Router>
+    </main>
   );
 }
 
